@@ -25,5 +25,9 @@ intro:
         Build for Everything
       image: /img/coffee.png
       text: With responsive design we build for all devices
+contact:
+  address:
+    - text: test
+      title: Ozzitech
 ---
 
