@@ -1,7 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import Foot from '../components/Foot'
 import Header from '../components/Header'
 import '../styles/style.scss'
 import useSiteMetadata from './SiteMetadata'
@@ -51,7 +50,7 @@ const TemplateWrapper = ({ children }) => {
       </Helmet>
       <Header />
       <div>{children}</div>
-      <Footer />
+      <Foot />
     </div>
   );
 }
