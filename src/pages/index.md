@@ -23,7 +23,7 @@ intro:
     - title: |-
         Build Once,
         Build for Everything
-      image: /img/coffee.png
+      image: /img/responsive-dark.png
       text: With responsive design we build for all devices
 contact:
   address:
