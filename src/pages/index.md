@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Hello
 image: /img/banner.jpg
 heading: Hello
 subheading: were’ a young team with BIG ideas!
