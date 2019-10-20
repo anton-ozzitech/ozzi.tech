@@ -2,8 +2,8 @@
 templateKey: index-page
 title: Great coffee with a conscience
 image: /img/banner.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Hello
+subheading: were’ a young team with BIG ideas!
 mainpitch:
   title: Why Kaldi
   description: >
