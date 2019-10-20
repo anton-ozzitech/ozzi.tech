@@ -4,8 +4,8 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
-    {gridItems.map(item => (
-      <section key={item.text} className="content-section">
+    {gridItems.map((item, key) => (
+      <section key={item.text} className={`content-section ${key%2 === 0 ? 'dark':''}`}>
         <div className="container">
           <div
             style={{
@@ -15,7 +15,7 @@ const FeatureGrid = ({ gridItems }) => (
           >
             <PreviewCompatibleImage imageInfo={item} />
           </div>
-          {item.title && <h3>{item.title}</h3>}
+          {item.title && <h2>{item.title}</h2>}
           <p>{item.text}</p>
         </div>
       </section>

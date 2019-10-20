@@ -5,9 +5,7 @@ import logo from "../img/ozzitech-logo.svg";
 const Foot = () => {
   return (
     <section className="footer">
-      <div className="container">
-        Some footer text
-      </div>
+      <div className="container">© OZZITECH</div>
     </section>
   );
 };

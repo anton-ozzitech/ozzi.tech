@@ -9,10 +9,8 @@ import Banner from '../components/Banner'
 export const IndexPageTemplate = ({
          image,
          title,
-         heading,
          subheading,
          mainpitch,
-         description,
          intro,
          contact
        }) => (
@@ -24,24 +22,21 @@ export const IndexPageTemplate = ({
                <h3 className="subtitle">{mainpitch.description}</h3>
              </div>
            </section>
-           <section className="content-section">
-             <div className="container">
-               <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
-               <p>{description}</p>
-             </div>
-           </section>
            <Features gridItems={intro.blurbs} />
-           <section className="content-section">
+           <section className="content-section contact dark">
              <div className="container">
                <h1>Contact Us</h1>
-               {contact.address.map(address => (
-                 <div>
-                   <h3>{address.title}</h3>
-                   <div>
-                     <pre>{address.text}</pre>
+               {contact &&
+                 contact.address.map((address, key) => (
+                   <div key={`address${key}`}>
+                     <h3>{address.title}</h3>
+                     <div>
+                       <pre>{address.text}</pre>
+                     </div>
+                     <div>phone: {address.phone}</div>
+                     <div>email: {address.email}</div>
                    </div>
-                 </div>
-               ))}
+                 ))}
              </div>
            </section>
          </div>
@@ -128,6 +123,8 @@ export const pageQuery = graphql`
                  address {
                    title
                    text
+                   phone
+                   email
                  }
                }
              }
