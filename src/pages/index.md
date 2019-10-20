@@ -27,7 +27,9 @@ intro:
       text: With responsive design we build for all devices
 contact:
   address:
-    - text: |-
+    - email: admin@ozzi.tech
+      phone: +61 3 99739365
+      text: |-
         Peel Street, Kew,
         Melbourne,
         Victoria - 3101
