@@ -27,7 +27,11 @@ intro:
       text: With responsive design we build for all devices
 contact:
   address:
-    - text: test
+    - text: |-
+        Peel Street, Kew,
+        Melbourne,
+        Victoria - 3101
+        Australia
       title: Ozzitech
 ---
 
