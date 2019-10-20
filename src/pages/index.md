@@ -16,7 +16,7 @@ description: Something
 intro:
   blurbs:
     - title: We are obsessed with quality
-      image: /img/meeting-space.png
+      image: /img/responsive-design.png
       text: >-
         We believe that Quality is paramount and it reflects in everything we
         do.
@@ -37,8 +37,7 @@ contact:
       title: Ozzitech
     - email: brikit@ozzi.tech
       phone: update number
-      text: |-
-        Update address
+      text: Update address
       title: Update company name
 ---
 
