@@ -35,5 +35,10 @@ contact:
         Victoria - 3101
         Australia
       title: Ozzitech
+    - email: brikit@ozzi.tech
+      phone: update number
+      text: |-
+        Update address
+      title: Update company name
 ---
 
