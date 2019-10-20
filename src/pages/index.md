@@ -4,12 +4,13 @@ title: Hello
 image: /img/banner.jpg
 subheading: were’ a young team with BIG ideas!
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  title: About Us
+  description: >-
+    We are a young Australian company looking to expand with a development
+    centre in India. With years of experience building world class web and
+    mobile applications, we work with the latest and greatest in front-end
+    technology and build state-of-the-art, high performant engaging digital
+    experiences for our client.
 heading: Ozzitech
 description: Something
 intro:
@@ -19,5 +20,10 @@ intro:
       text: >-
         We believe that Quality is paramount and it reflects in everything we
         do.
+    - title: |-
+        Build Once,
+        Build for Everything
+      image: /img/coffee.png
+      text: With responsive design we build for all devices
 ---
 
