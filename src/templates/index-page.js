@@ -17,26 +17,27 @@ export const IndexPageTemplate = ({
          <div>
            <Banner image={image} title={title} subheading={subheading} />
            <section className="content-section">
-             <div className="container">
-               <h1 className="title">{mainpitch.title}</h1>
+             <div className="container text-center">
                <h3 className="subtitle">{mainpitch.description}</h3>
              </div>
            </section>
            <Features gridItems={intro.blurbs} />
-           <section className="content-section contact dark">
+           <section className="content-section contacts dark">
              <div className="container">
                <h1>Contact Us</h1>
-               {contact &&
-                 contact.address.map((address, key) => (
-                   <div key={`address${key}`}>
-                     <h3>{address.title}</h3>
-                     <div>
-                       <pre>{address.text}</pre>
+               <div className="row">
+                 {contact &&
+                   contact.address.map((address, key) => (
+                     <div className="column contact" key={`address${key}`}>
+                       <h3>{address.title}</h3>
+                       <div>
+                         <pre>{address.text}</pre>
+                       </div>
+                       <div>phone: {address.phone}</div>
+                       <div>email: {address.email}</div>
                      </div>
-                     <div>phone: {address.phone}</div>
-                     <div>email: {address.email}</div>
-                   </div>
-                 ))}
+                   ))}
+               </div>
              </div>
            </section>
          </div>

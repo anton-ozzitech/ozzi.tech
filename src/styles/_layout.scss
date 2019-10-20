@@ -4,6 +4,18 @@
   padding: 0 10%;
 }
 
+.row {
+  @media(min-width: 768px) {
+    display: flex;
+    .column {
+      flex: 1;
+    }
+    &-reverse {
+      flex-direction: row-reverse;
+    }
+  }
+}
+
 .banner {
   padding: 10% 0;
   color: white;
@@ -24,6 +36,12 @@
   }
 }
 
+.contacts {
+  .contact {
+    padding: 1rem 0;
+  }
+}
+
 .footer {
   padding: 2rem 0;
   background: $dark-blue;
@@ -31,3 +49,4 @@
   box-shadow: 0 -1px 0 0 #000000, 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   border-top: solid 1px rgba(14, 94, 156, 0.65);
 }
+
