@@ -6,11 +6,11 @@ subheading: were’ a young team with BIG ideas!
 mainpitch:
   title: About Us
   description: >-
-    We are a young Australian company looking to expand with a development
-    centre in India. With years of experience building world class web and
+    We are a young team based in Melbourne, Australia and now expanding to India.
+    With years of experience building world class web and
     mobile applications, we work with the latest and greatest in front-end
     technology and build state-of-the-art, high performant engaging digital
-    experiences for our client.
+    experiences for our clients.
 heading: Ozzitech
 description: Something
 intro:

@@ -4,7 +4,7 @@ import envelope from "../img/envelope.svg";
 
 const Contact = ({ address, key }) => (
   <div className="column contact" key={key}>
-    <h3>{address.title}</h3>
+    <h2>{address.title}</h2>
     <pre className="contact-address">{address.text}</pre>
     <div>
       <a href={`tel:${address.phone}`} className="contacts-link">

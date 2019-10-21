@@ -22,7 +22,7 @@ const FeatureGrid = ({ gridItems }) => (
               </div>
             </div>
             <div className="column">
-              {item.title && <h2>{item.title}</h2>}
+              {item.title && <h1>{item.title}</h1>}
               <p>{item.text}</p>
             </div>
           </div>

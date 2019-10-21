@@ -16,85 +16,35 @@
     &-reverse {
       flex-direction: row-reverse;
       .column:nth-child(2n) {
-        padding-right: 4rem;
+        padding-right: 2rem;
         padding-left: 0;
       }
     }
   }
 }
 
-.banner {
-  padding: 50% 0 20%;
-  color: white;
-  background-size: cover;
-  background-position: 80%;
-  h1 {
-    font-size: 6rem;
-    margin: 0;
-  }
-  h2 {
-    margin: 0;
-  }
-  @media(min-width: 768px) {
-    padding: 20% 0 10%;
-  }
-    @media(min-width: 1200px) {
-        padding: 15% 0 8%;
-    }
-}
-
 .content-section {
   border-top: solid 1px #eee;
   padding: 10% 0;
 
-    @media(min-width: 768px) {
-        padding: 7% 0;
-    }
+  font-size: 1.2rem;
+  line-height: 2rem;
 
-    @media(min-width: 1200px) {
-        padding: 5% 0;
-    }
+  @media(min-width: 768px) {
+      padding: 7% 0;
+  }
+
+  @media(min-width: 1200px) {
+      padding: 5% 0;
+  }
   &.dark {
   background: $dark-blue;
   color: $white;
-    h1, h2 {
+    h1 {
       color: $light-blue;
       font-weight: bold;
     }
   }
 }
 
-.contacts {
-  .contact {
-    padding: 1rem 0;
-    @media(min-width: 768px) {
-      &-address {
-        min-height: 7rem;
-      }
-    }
-  }
-  &-link {
-    color: $white;
-    display: block;
-    margin: .5rem 0;
-    padding: .5rem 0;
-    line-height: 30px;
-    display: flex;
-    text-decoration: none;
-    img {
-      margin-right: 1rem;
-    }
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-
-.footer {
-  padding: 2rem 0;
-  background: $dark-blue;
-  color: $white;
-  box-shadow: 0 -1px 0 0 #000000, 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-  border-top: solid 1px rgba(14, 94, 156, 0.65);
-}
 

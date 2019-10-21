@@ -1,0 +1,28 @@
+.contacts {
+  .contact {
+    padding: 1rem 0;
+    @media(min-width: 768px) {
+      &-address {
+        min-height: 10rem;
+      }
+    }
+    h2 {
+      margin-bottom: 1rem;
+    }
+  }
+  &-link {
+    color: $white;
+    display: block;
+    margin: .5rem 0;
+    padding: .5rem 0;
+    line-height: 30px;
+    display: flex;
+    text-decoration: none;
+    img {
+      margin-right: 1rem;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
