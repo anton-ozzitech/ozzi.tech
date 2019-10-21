@@ -18,12 +18,12 @@ intro:
     - title: We are obsessed with quality
       image: /img/coding-light.png
       text: >-
-        We believe that Quality is paramount and it reflects in everything we do. Attention to detail is the key this is how we build world class apps.
+        We believe that Quality is paramount and it reflects in everything we do. Attention to detail is the key and this is how we build world class apps.
     - title: |-
         Build Once,
         Build for Everything
       image: /img/responsive-design.png
-      text: We use the latest and greatest in tech to build fast and scalable applications and websites. We build quality applications that can run on all  devices.
+      text: We use cutting edge technology to build fast and scalable applications and websites. We build quality applications that can run on all  devices.
 contact:
   address:
     - email: admin@ozzi.tech
