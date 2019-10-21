@@ -9,9 +9,16 @@
     display: flex;
     .column {
       flex: 1;
+      &:nth-child(2n) {
+        padding-left: 4rem;
+      }
     }
     &-reverse {
       flex-direction: row-reverse;
+      .column:nth-child(2n) {
+        padding-right: 4rem;
+        padding-left: 0;
+      }
     }
   }
 }
@@ -24,7 +31,7 @@
 
 .content-section {
   border-top: solid 1px #eee;
-  padding: 50px 0;
+  padding: 10% 0;
 
   &.dark {
   background: $dark-blue;
@@ -39,6 +46,26 @@
 .contacts {
   .contact {
     padding: 1rem 0;
+    @media(min-width: 768px) {
+      &-address {
+        min-height: 7rem;
+      }
+    }
+  }
+  &-link {
+    color: $white;
+    display: block;
+    margin: .5rem 0;
+    padding: .5rem 0;
+    line-height: 30px;
+    display: flex;
+    text-decoration: none;
+    img {
+      margin-right: 1rem;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 

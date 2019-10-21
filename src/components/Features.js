@@ -14,7 +14,7 @@ const FeatureGrid = ({ gridItems }) => (
             <div className="column">
               <div
                 style={{
-                  width: "240px",
+                  width: "300px",
                   display: "inline-block"
                 }}
               >

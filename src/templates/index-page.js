@@ -1,10 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Banner from '../components/Banner'
+import Contact from '../components/Contact'
 
 export const IndexPageTemplate = ({
          image,
@@ -28,14 +29,7 @@ export const IndexPageTemplate = ({
                <div className="row">
                  {contact &&
                    contact.address.map((address, key) => (
-                     <div className="column contact" key={`address${key}`}>
-                       <h3>{address.title}</h3>
-                       <div>
-                         <pre>{address.text}</pre>
-                       </div>
-                       <div>phone: {address.phone}</div>
-                       <div>email: {address.email}</div>
-                     </div>
+                    <Contact address={address} key={`address${key}`} />
                    ))}
                </div>
              </div>
@@ -109,7 +103,7 @@ export const pageQuery = graphql`
                  blurbs {
                    image {
                      childImageSharp {
-                       fluid(maxWidth: 240, quality: 64) {
+                       fluid(maxWidth: 300, quality: 64) {
                          ...GatsbyImageSharpFluid
                        }
                      }

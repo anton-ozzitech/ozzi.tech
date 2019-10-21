@@ -38,10 +38,8 @@ contact:
     - email: brikit@ozzi.tech
       phone: +91 8122445538
       text: |-
-        Rattha Tek Meadows ,
-        Tower C , 
-        4th Floor, Rajiv Gandhi
-        Salai (OMR), 
+        Rattha Tek Meadows, Tower C , 
+        4th Floor, Rajiv Gandhi Salai (OMR),
         Sholinganallur, 
         Chennai-600 119.
         India

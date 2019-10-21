@@ -8,7 +8,7 @@ const Header = () => {
     <section className="header">
       <div className="container">
         <Link to="/" className="navbar-item" title="Logo">
-          <img src={logo} alt="Kaldi" style={{ width: "281px" }} />
+          <img src={logo} alt="Ozzitech" style={{ width: "281px" }} />
         </Link>
       </div>
     </section>
