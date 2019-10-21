@@ -36,8 +36,15 @@ contact:
         Australia
       title: Ozzitech
     - email: brikit@ozzi.tech
-      phone: update number
-      text: Update address
-      title: Update company name
+      phone: +91 8122445538
+      text: |-
+        Rattha Tek Meadows ,
+        Tower C , 
+        4th Floor, Rajiv Gandhi
+        Salai (OMR), 
+        Sholinganallur, 
+        Chennai-600 119.
+        India
+      title: Scriptozzi Private limited
 ---
 
