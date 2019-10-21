@@ -16,14 +16,14 @@ description: Something
 intro:
   blurbs:
     - title: We are obsessed with quality
-      image: /img/responsive-design.png
+      image: /img/coding-light.png
       text: >-
         We believe that Quality is paramount and it reflects in everything we
         do.
     - title: |-
         Build Once,
         Build for Everything
-      image: /img/responsive-dark.png
+      image: /img/responsive-design.png
       text: With responsive design we build for all devices
 contact:
   address:
