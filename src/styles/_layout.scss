@@ -15,9 +15,14 @@
     }
     &-reverse {
       flex-direction: row-reverse;
-      .column:nth-child(2n) {
-        padding-right: 2rem;
-        padding-left: 0;
+      .column{
+        &:first-child {
+          text-align: right;
+        }
+        &:nth-child(2n) {
+          padding-right: 2rem;
+          padding-left: 0;
+        }
       }
     }
   }
