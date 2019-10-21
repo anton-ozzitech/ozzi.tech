@@ -19,7 +19,7 @@ export const IndexPageTemplate = ({
            <Banner image={image} title={title} subheading={subheading} />
            <section className="content-section">
              <div className="container text-center">
-               <h3 className="subtitle">{mainpitch.description}</h3>
+               <p className="subtitle">{mainpitch.description}</p>
              </div>
            </section>
            <Features gridItems={intro.blurbs} />

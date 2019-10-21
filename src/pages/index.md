@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Hello
+title: hello
 image: /img/banner.jpg
 subheading: were’ a young team with BIG ideas!
 mainpitch:

@@ -24,15 +24,36 @@
 }
 
 .banner {
-  padding: 10% 0;
+  padding: 50% 0 20%;
   color: white;
   background-size: cover;
+  background-position: 80%;
+  h1 {
+    font-size: 6rem;
+    margin: 0;
+  }
+  h2 {
+    margin: 0;
+  }
+  @media(min-width: 768px) {
+    padding: 20% 0 10%;
+  }
+    @media(min-width: 1200px) {
+        padding: 15% 0 8%;
+    }
 }
 
 .content-section {
   border-top: solid 1px #eee;
   padding: 10% 0;
 
+    @media(min-width: 768px) {
+        padding: 7% 0;
+    }
+
+    @media(min-width: 1200px) {
+        padding: 5% 0;
+    }
   &.dark {
   background: $dark-blue;
   color: $white;
