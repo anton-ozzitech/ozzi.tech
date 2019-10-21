@@ -1,9 +1,13 @@
 .contacts {
   .contact {
     padding: 1rem 0;
+    &-address {
+      font-size: 1rem;
+    }
     @media(min-width: 768px) {
       &-address {
         min-height: 10rem;
+        font-size: 1.2rem;
       }
     }
     h2 {

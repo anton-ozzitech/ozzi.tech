@@ -30,7 +30,10 @@
 
 .content-section {
   border-top: solid 1px #eee;
-  padding: 10% 0;
+  padding: 20% 0;
+  @media(min-width: 768px) {
+    padding: 10% 0;
+  }
 
   font-size: 1.2rem;
   line-height: 2rem;
