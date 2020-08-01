@@ -1,13 +1,13 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
-import Foot from '../components/Foot'
-import Header from '../components/Header'
-import '../styles/style.scss'
-import useSiteMetadata from './SiteMetadata'
-import { withPrefix } from 'gatsby'
+import React from "react";
+import { Helmet } from "react-helmet";
+import Foot from "../components/Foot";
+import Header from "../components/Header";
+import "../styles/style.scss";
+import useSiteMetadata from "./SiteMetadata";
+import { withPrefix } from "gatsby";
 
 const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata()
+  const { title, description } = useSiteMetadata();
   return (
     <div>
       <Helmet>
@@ -47,12 +47,16 @@ const TemplateWrapper = ({ children }) => {
           property="og:image"
           content={`${withPrefix("/")}img/og-image.jpg`}
         />
+        <meta
+          name="google-site-verification"
+          content="01wyPMkkJ-rmb3XovJZGtou_YoomgHoUlkcIRhXFt4Y"
+        />
       </Helmet>
       <Header />
       <div>{children}</div>
       <Foot />
     </div>
   );
-}
+};
 
-export default TemplateWrapper
+export default TemplateWrapper;
